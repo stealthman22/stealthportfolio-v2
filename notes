@@ -2,4 +2,15 @@ Building the Navbar
 
 file structure:
 
-src => assets, components, constants, containers
+src =>i assets, components, constants, containers index.js, App.js index.css, App.css
+
+assets: for all assets used in project e.g images
+components: for all single or smaller components
+containers: contains our big components, or components containing other components inside of them.
+backdrop-filter: blur creates a blurry effect on an element, during scroll
+
+A powerful feature in scss is called nestingg properties.
+
+Rather than create a new style declaration to target an element that is a child, we simply write it inside the parent style declaration.
+
+We can even nest the media queries of an element in the same declaration
