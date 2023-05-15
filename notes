@@ -14,3 +14,12 @@ A powerful feature in scss is called nestingg properties.
 Rather than create a new style declaration to target an element that is a child, we simply write it inside the parent style declaration.
 
 We can even nest the media queries of an element in the same declaration
+
+Monday 15th May 2023
+Instead of creating a new class for hover in sass, just use &:hover to replace it
+
+-Creating a somewhat invisible div on top of the links in a navbar is really cool for adding extra styles on hover. (Creating shapes in CSS)
+
+## Creating mobile view for Navbar
+
+React icons is a nifty way of using premade icons in your app, rather than having to download and import them manually.
