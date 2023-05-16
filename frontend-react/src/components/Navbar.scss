@@ -137,7 +137,23 @@
 
 			a {
 				text-decoration: none;
+				color: var(--grey-color);
+				font-size: 1rem;
+				text-transform: uppercase;
+				font-weight: 500;
+
+				transition: all 0.3s ease-in-out;
+
+				&:hover {
+					color: var(--secondary-color);
+				}
 			}
 		}
+		// @media screen and (min-width: 900px) {
+		// 	display: none;
+		// }
+	}
+	@media screen and (min-width: 900px) {
+		display: none;
 	}
 }

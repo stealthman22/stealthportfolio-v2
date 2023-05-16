@@ -15,7 +15,8 @@ Rather than create a new style declaration to target an element that is a child,
 
 We can even nest the media queries of an element in the same declaration
 
-Monday 15th May 2023
+# Monday 15th May 2023
+
 Instead of creating a new class for hover in sass, just use &:hover to replace it
 
 -Creating a somewhat invisible div on top of the links in a navbar is really cool for adding extra styles on hover. (Creating shapes in CSS)
@@ -23,3 +24,11 @@ Instead of creating a new class for hover in sass, just use &:hover to replace i
 ## Creating mobile view for Navbar
 
 React icons is a nifty way of using premade icons in your app, rather than having to download and import them manually.
+
+# Tuesday 16th May 2023
+
+- Framer motion can be used to animate divs and even images. All you have to do is to add motion. before the element you wish to animate.
+
+- If the element supports self-closing tags, you can use that as well.
+
+- With the variant framer motion prop, we can add variants on how we wish to scale an element

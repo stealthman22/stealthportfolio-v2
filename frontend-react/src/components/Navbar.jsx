@@ -40,10 +40,10 @@ const Navbar = () => {
 								"skills",
 								"testimonial",
 								"contact",
-							].map((item) => (
-								<li key={{ item }}>
-									<a href={`#${item}`} onClick={() => setToggle(false)}>
-										{item}
+							].map((mobileItem) => (
+								<li key={{ mobileItem }}>
+									<a href={`#${mobileItem}`} onClick={() => setToggle(false)}>
+										{mobileItem}
 									</a>
 								</li>
 							))}
