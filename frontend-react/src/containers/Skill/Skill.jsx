@@ -8,5 +8,5 @@ const Skill = () => {
 		</div>
 	);
 };
-
+//exporting
 export default Skill;
