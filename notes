@@ -38,3 +38,7 @@ React icons is a nifty way of using premade icons in your app, rather than havin
 ## 10th June 2023
 
 1:28:20 (stop)
+
+## 11th June 2023
+
+A nifty way to create keys in react loops, is to add a related name in front of the index. For example. using the name of a shape; `Circle-${index}`. This will make it unique
