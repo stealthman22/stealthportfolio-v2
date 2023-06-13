@@ -60,6 +60,7 @@ const images = {
 	about03,
 	about04,
 	profile,
+
 	circle,
 	logo,
 	adidas,
