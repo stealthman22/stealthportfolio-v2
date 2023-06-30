@@ -9,9 +9,9 @@ const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 	return (
 		<nav className="app__navbar">
-			<div className="app__navbar-logo">
+			{/* <div className="app__navbar-logo">
 				<img src={images.logo} alt="logo" />
-			</div>
+			</div> */}
 			<ul className="app__navbar-links">
 				{/* The curly braces here is called dynamic code block */}
 				{["home", "about", "work", "skills", "testimonial", "contact"].map(
